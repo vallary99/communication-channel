@@ -1,0 +1,153 @@
+#navbar{
+    padding: 10px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    /* position: fixed;
+    z-index: 1; */
+}
+
+#navbar a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: rgb(21, 128, 0);
+}
+
+#navbar a:hover{
+    color: white;
+}
+
+body{
+    background-color: white;
+    font-family: Crimson Text;
+}
+
+.card1{
+    border: 1pt solid black;
+    width: 50%;
+    margin-left: 350px;
+}
+
+.card2{
+    border: 1pt solid black;
+    width: 60%;
+    margin-left: 250px;
+}
+.form-1{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+/* .form-2{
+    margin-top: 50px;
+} */
+
+.one{
+    margin-left: 50px;
+}
+
+.two{
+    margin-left: 80px;
+}
+
+#login{
+    margin-left: 60px;
+    color: rgb(21, 128, 0);
+}
+
+#reg{
+    color: rgb(21, 128, 0);
+}
+
+#submit{
+    margin-left: 350px;
+    margin-top: -100px;
+    color: rgb(21, 128, 0);
+}
+
+input{
+    border: 1pt solid black;
+    width: 250px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+#name{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: -80px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+@media only screen and (max-width: 990px){
+    
+    .container-fluid{
+        width: 100%;
+        position: relative;
+    }
+
+    #navbar a{
+        padding-left: 3px;
+        text-align: left;
+    }
+
+    #name{
+        margin-top: -30px;
+        margin-left: 8px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    img{
+        height: 70px;
+        width: 70px;
+    
+    }
+
+    form{
+        margin-left: 20px;
+    }
+
+    #submit{
+        margin-left: 70px;
+    }
+}
+
+ /* @media only screen and (min-width: 340px){
+    .container-fluid{
+        width: 100%;
+        position: relative;
+    }
+
+    #navbar a{
+        padding-left: 3px;
+        text-align: left;
+    }
+
+    #name{
+        margin-top: -30px;
+        margin-left: 10px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    img{
+        height: 70px;
+        width: 70px;
+    
+    }
+
+    form{
+        margin-left: 20px;
+    }
+
+    #submit{
+        margin-left: 70px;
+    }
+}  */
+

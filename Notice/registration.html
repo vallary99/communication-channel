@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="logo">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="images/logo.jpg">
+                </div>
+
+                <div class="col-md-10">
+                    <div id="name">N.C.I.T</div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="navbar">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="registration.html">CREATE ACCOUNT</a>
+        </div>
+
+        <div class="card2">
+            <div class="card-body">
+                <div class="form-2">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="one">
+                                    First Name <br><input id="first" type="text" required><br><br>
+
+                                    Last Name <br><input id="last" type="text" required><br><br>
+
+                                    Reg. No. <br><input id="reg2" type="text" required><br><br>
+
+                                    ID No. <br><input id="ids" type="number" required valid><br><br>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="two">
+                                    E-mail <br><input id="email" type="email" required><br><br>
+                                    
+                                    Phone No.<br><input id="phone" type="tel" required valid><br><br>
+
+                                    Password <br><input id="password" type="password" required><br><br>
+
+                                    Confirm Password <br><input id="confirm" type="password" required valid><br><br>
+                                </div>
+                            </div>
+                        </div>
+
+                            <a href="index.html"><button type="submit" id="submit" onclick="validation()">SUBMIT</button></a>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
